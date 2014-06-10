@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JFileChooser" name="fileChooser">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="" noResource="true"/>
+        <Property name="requestFocusEnabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fileChooserActionPerformed"/>
+      </Events>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="BotonActualizar" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="jComboBox_supplier" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jComboBox_itguy" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="bandera" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="bandera" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jLabel1" alignment="0" min="-2" pref="46" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jComboBox_itguy" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jComboBox_supplier" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="BotonActualizar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/rarelogo.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bandera">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/UK.jpg"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="BotonActualizar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Load File!"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BotonActualizarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox_supplier">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="83">
+            <StringItem index="0" value="SUPPLIER"/>
+            <StringItem index="1" value="!CLEARANCE!"/>
+            <StringItem index="2" value="2ENTERTAIN"/>
+            <StringItem index="3" value="AHE"/>
+            <StringItem index="4" value="ANCHOR BAY"/>
+            <StringItem index="5" value="AVANQUEST"/>
+            <StringItem index="6" value="AVID"/>
+            <StringItem index="7" value="BERTUS"/>
+            <StringItem index="8" value="BRAVADO"/>
+            <StringItem index="9" value="CAMROSE MEDIA"/>
+            <StringItem index="10" value="CENTRESOFT"/>
+            <StringItem index="11" value="CHANNEL4"/>
+            <StringItem index="12" value="CONTACT"/>
+            <StringItem index="13" value="CORNERSTONE"/>
+            <StringItem index="14" value="CREATIVE"/>
+            <StringItem index="15" value="CURVEBALL"/>
+            <StringItem index="16" value="DADC"/>
+            <StringItem index="17" value="DELTA"/>
+            <StringItem index="18" value="DISCOVERY"/>
+            <StringItem index="19" value="DUKE"/>
+            <StringItem index="20" value="E1"/>
+            <StringItem index="21" value="ELEVATION"/>
+            <StringItem index="22" value="FIREBOX"/>
+            <StringItem index="23" value="FOX"/>
+            <StringItem index="24" value="FREEMANTLE"/>
+            <StringItem index="25" value="GAME OUTLET"/>
+            <StringItem index="26" value="GARDNERS_DVD"/>
+            <StringItem index="27" value="GEM GAMES"/>
+            <StringItem index="28" value="HART"/>
+            <StringItem index="29" value="HIGHFLYER"/>
+            <StringItem index="30" value="HIT"/>
+            <StringItem index="31" value="HFF"/>
+            <StringItem index="32" value="ITV"/>
+            <StringItem index="33" value="KOCH MEDIA"/>
+            <StringItem index="34" value="KONDOR"/>
+            <StringItem index="35" value="LASGO"/>
+            <StringItem index="36" value="LINK"/>
+            <StringItem index="37" value="MASTERTRONIC"/>
+            <StringItem index="38" value="MYSTORM"/>
+            <StringItem index="39" value="MERONCOURT"/>
+            <StringItem index="40" value="MOV"/>
+            <StringItem index="41" value="MSE WS"/>
+            <StringItem index="42" value="PARAMOUNT"/>
+            <StringItem index="43" value="PIAS"/>
+            <StringItem index="44" value="PICKWICK"/>
+            <StringItem index="45" value="PLASTICHEAD"/>
+            <StringItem index="46" value="PROPER"/>
+            <StringItem index="47" value="QUANTUM LEAP"/>
+            <StringItem index="48" value="RARE_ON_DEMAND"/>
+            <StringItem index="49" value="ROM"/>
+            <StringItem index="50" value="SELECT MUSIC"/>
+            <StringItem index="51" value="SONY MUSIC"/>
+            <StringItem index="52" value="PAVILION"/>
+            <StringItem index="53" value="SPICERS"/>
+            <StringItem index="54" value="SPACE1999"/>
+            <StringItem index="55" value="SPIKE"/>
+            <StringItem index="56" value="UNION SQUARE MUSIC"/>
+            <StringItem index="57" value="UNIVERSAL"/>
+            <StringItem index="58" value="UNIVERSAL PICTURES"/>
+            <StringItem index="59" value="UPFRONT"/>
+            <StringItem index="60" value="WALK"/>
+            <StringItem index="61" value="WARNER"/>
+            <StringItem index="62" value="WARNER C&amp;J"/>
+            <StringItem index="63" value="WARNER HOME ENT"/>
+            <StringItem index="64" value="WDL"/>
+            <StringItem index="65" value="PROPER WS"/>
+            <StringItem index="66" value="GEM OP"/>
+            <StringItem index="67" value="TBS"/>
+            <StringItem index="68" value="ROCKOFF"/>
+            <StringItem index="69" value="B&amp;T"/>
+            <StringItem index="70" value="INGRAM"/>
+            <StringItem index="71" value="UNIVERSAL-USA"/>
+            <StringItem index="72" value="E1-USA"/>
+            <StringItem index="73" value="VPD"/>
+            <StringItem index="74" value="AEC"/>
+            <StringItem index="75" value="ALLIED VAUGHN"/>
+            <StringItem index="76" value="ISOTOPE"/>
+            <StringItem index="77" value="MVD"/>
+            <StringItem index="78" value="ALLEGRO"/>
+            <StringItem index="79" value="BERTUS-USA"/>
+            <StringItem index="80" value="CDBABY"/>
+            <StringItem index="81" value="AMS"/>
+            <StringItem index="82" value="HARMONIAMUNDI"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox_supplierActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBox_itguy">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="IT Team"/>
+            <StringItem index="1" value="T0M"/>
+            <StringItem index="2" value="Sebas"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
