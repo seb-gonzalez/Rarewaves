@@ -33,9 +33,9 @@ public class Massive
         
         
 	private String username = "raremusicorders";
-	private String password = "98churchmor";
-	private String from = "raremusicorders@gmail.com";
-	private String to = "raremusicorders@gmail.com";	
+	private String password = "*******";
+	private String from = "******@gmail.com";
+	private String to = "*******@gmail.com";	
 	
 	private DateFormat dateFormat, dateFormatT0M;
 	private Date date;
@@ -55,10 +55,10 @@ public class Massive
                 
                 if(!this.UK) // USA
                 {
-                    this.username = "email@rarewaves-usa.com";
-                    this.password = "sevaw2011";
-                    this.from = "email@rarewaves-usa.com";
-                    this.to = "email@rarewaves-usa.com";
+                    this.username = "******.com";
+                    this.password = "******";
+                    this.from = "e*****";
+                    this.to = "******";
                 }
                 
 		this.filename = absoluto;
