@@ -52,7 +52,7 @@ public class GoogleDriveUPD
         SpreadsheetService service = new SpreadsheetService("MySpreadsheetIntegration-v1");
 
         // TODO: Authorize the service object for a specific user (see other sections)
-        service.setUserCredentials("raremusicorders@gmail.com", "98churchmor");
+        service.setUserCredentials("*************@gmail.com", "**********");
 
         // Define the URL to request.  This should never change.
         URL SPREADSHEET_FEED_URL = new URL(
